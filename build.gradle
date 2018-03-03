@@ -1,0 +1,43 @@
+group 'tech.ugma.education.treetableview'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+sourceCompatibility = 1.8
+
+repositories {
+    jcenter()
+    mavenCentral()
+    mavenLocal()
+}
+
+sourceCompatibility = 1.8
+mainClassName = "tech.ugma.education.treetableview.Demo"
+
+
+
+dependencies {
+    // NOTE: the latest version of datafx _is_ 8.0.1!
+    // 8.0.7 was published by mistake
+    compile 'io.datafx:datafx:8.0.1'
+    compile 'io.datafx:flow:8.0.1'
+
+    // For LDAP
+    // https://mvnrepository.com/artifact/com.unboundid/unboundid-ldapsdk
+    compile group: 'com.unboundid', name: 'unboundid-ldapsdk', version: '4.0.4'
+
+
+    // FontAwesome (Bintray - on jcenter)
+    compile 'de.jensd:fontawesomefx-fontawesome:4.7.0-5'
+
+    compile group: 'org.controlsfx', name: 'controlsfx', version: '8.40.14'
+    compile group: 'com.jfoenix', name: 'jfoenix', version: '8.0.2'
+    compile group: 'tech.ugma.customcomponents', name: 'AddRemoveComboBox', version: '0.7'
+    compile group: 'tech.ugma.customcomponents.tributefx', name: 'TributeFX', version: '0.3.4'
+    compile group: 'tech.ugma.customcomponents', name: 'letter-avatar', version: '0.6.0'
+    compile group: 'scenicView', name: 'scenicView', version: '8.7.0'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+}
+

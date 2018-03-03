@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TreeTableView Example 1.iml" filepath="$PROJECT_DIR$/.idea/modules/TreeTableView Example 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TreeTableView_Example_1.iml" filepath="$PROJECT_DIR$/.idea/modules/TreeTableView_Example_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TreeTableView_Example_1_main.iml" filepath="$PROJECT_DIR$/.idea/modules/TreeTableView_Example_1_main.iml" group="TreeTableView_Example_1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TreeTableView_Example_1_test.iml" filepath="$PROJECT_DIR$/.idea/modules/TreeTableView_Example_1_test.iml" group="TreeTableView_Example_1" />
+    </modules>
+  </component>
+</project>

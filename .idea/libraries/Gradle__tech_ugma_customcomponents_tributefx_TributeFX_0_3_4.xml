@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: tech.ugma.customcomponents.tributefx:TributeFX:0.3.4">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/tech/ugma/customcomponents/tributefx/TributeFX/0.3.4/TributeFX-0.3.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/tech/ugma/customcomponents/tributefx/TributeFX/0.3.4/TributeFX-0.3.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXTreeTableColumn?>
+<?import com.jfoenix.controls.JFXTreeTableView?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="treetableview.DemoController">
+
+    <center>
+        <JFXTreeTableView fx:id="discrepancyTypes">
+            <columns>
+                <JFXTreeTableColumn fx:id="categoryColumn" prefWidth="200.0" text="Category" />
+                <JFXTreeTableColumn fx:id="nameColumn" minWidth="133" prefWidth="250.0" text="Name" />
+                <JFXTreeTableColumn fx:id="descriptionColumn" minWidth="133" prefWidth="350.0" text="Description" />
+            </columns>
+        </JFXTreeTableView>
+    </center>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+   <bottom>
+      <VBox BorderPane.alignment="CENTER">
+         <children>
+            <HBox spacing="10.0">
+               <children>
+                  <JFXTextField />
+                  <JFXTextField layoutX="10.0" layoutY="10.0" prefHeight="25.0" prefWidth="234.0" />
+               </children>
+               <VBox.margin>
+                  <Insets left="133.0" />
+               </VBox.margin>
+            </HBox>
+         </children>
+      </VBox>
+   </bottom>
+   <left>
+      <ToolBar orientation="VERTICAL" prefWidth="45.0" BorderPane.alignment="CENTER">
+        <items>
+            <JFXButton contentDisplay="GRAPHIC_ONLY" layoutX="10.0" layoutY="10.0" styleClass="flat-button" text="Button">
+               <graphic>
+                  <FontAwesomeIconView glyphName="PLUS" />
+               </graphic>
+            </JFXButton>
+            <JFXButton contentDisplay="GRAPHIC_ONLY" styleClass="flat-button">
+               <graphic>
+                  <FontAwesomeIconView glyphName="MINUS" />
+               </graphic>
+            </JFXButton>
+            <JFXButton contentDisplay="GRAPHIC_ONLY" layoutX="10.0" layoutY="39.0" styleClass="flat-button" text="Button">
+               <graphic>
+                  <FontAwesomeIconView glyphName="ARROW_UP" />
+               </graphic>
+            </JFXButton>
+            <JFXButton contentDisplay="GRAPHIC_ONLY" layoutX="10.0" layoutY="68.0" styleClass="flat-button" text="Button">
+               <graphic>
+                  <FontAwesomeIconView glyphName="ARROW_DOWN" />
+               </graphic>
+            </JFXButton>
+        </items>
+      </ToolBar>
+   </left>
+
+</BorderPane>
