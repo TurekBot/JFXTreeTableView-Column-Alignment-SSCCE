@@ -13,7 +13,7 @@ repositories {
 }
 
 sourceCompatibility = 1.8
-mainClassName = "tech.ugma.education.treetableview.Demo"
+mainClassName = "treetableview.Demo"
 
 
 
